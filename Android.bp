@@ -1,0 +1,15 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_app_import {
+        name: "ViperFX",
+        overrides: ["AudioFX"],
+        apk: "ViperFX/ViperFX.apk",
+        certificate: "PRESIGNED",
+        dex_preopt: {
+                enabled: false,
+    },
+}
+
